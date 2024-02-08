@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #141414;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.upload-form input[type="file"] {
+    border: 2px solid #333;
+    padding: 10px;
+    background: transparent;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.btn-upload {
+    padding: 10px 20px;
+    border: none;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-upload:hover {
+    background-color: #f6121d;
+}
+
+/* Hover animations for the upload button */
+.btn-upload::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+
+.btn-upload:hover::after {
+    width: 100%;
+}
+
+/* Style adjustments for file input */
+.upload-form input[type="file"] {
+    cursor: pointer;
+}
+
+.upload-form input[type="file"]::-webkit-file-upload-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #e50914;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.upload-form input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #f6121d;
+}

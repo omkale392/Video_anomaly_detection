@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Anomaly Detection</title>
+    <link rel="stylesheet" href='styles.css'>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Video Anomaly Detection</h1>
+        </header>
+        <form action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data" class="upload-form">
+            <input type="file" name="video" required>
+            <button type="submit" class="btn-upload">Upload Video</button>
+        </form>
+    </div>
+</body>
+</html>
