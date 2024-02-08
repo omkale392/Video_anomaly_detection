@@ -12,10 +12,10 @@ The Video Anomaly Detection System is a sophisticated web-based application desi
 6) Anomaly Highlighting: Detected anomalies are highlighted, and details are provided to the user for further action.
 
 # Technologies Used
-*Flask:* A micro web framework for Python, used to create the web application's backend.\n
-*OpenCV:* An open-source computer vision and machine learning software library used for the video processing tasks.\n
-*CSS Animations:* Pure CSS is used to create subtle animations and transitions for a more dynamic UI without impacting performance.\n
-*HTML5:* Structuring the web application’s content with the latest standards of HTML.\n
+*Flask:* A micro web framework for Python, used to create the web application's backend.\t
+*OpenCV:* An open-source computer vision and machine learning software library used for the video processing tasks.\t
+*CSS Animations:* Pure CSS is used to create subtle animations and transitions for a more dynamic UI without impacting performance.\t
+*HTML5:* Structuring the web application’s content with the latest standards of HTML.\t
 
 # How to Use
 *Access the Web Application:* Navigate to the deployed web application URL on any modern web browser.
